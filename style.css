@@ -1,0 +1,58 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#calculator {
+  width: 100%;
+  height: 94%;
+}
+
+.dcg-text-value {
+    font-weight: bold;
+}
+
+#inputs {
+    width: 100%;
+    border-bottom: .7vh solid #000;
+}
+
+#equation {
+    width: 76%;
+    padding: 2vh 2%;
+    margin: 0;
+    font-size: 2vh;
+    border: none;
+}
+
+#equation:focus {
+    outline: none;
+}
+
+#inputs button {
+    width: 20%;
+    padding: 2vh 0;
+    margin: 0;
+    font-size: 2vh;
+    float: right;
+    border: none;
+    cursor: pointer;
+    background: #167F39;
+    font-weight: bold;
+    color: #fff;
+}
+
+#inputs button:hover {
+    background: #178A3E;
+}
+
+#inputs button:active {
+    background: #044C29;
+}
+
+#inputs button:focus {
+    outline: none;
+}
