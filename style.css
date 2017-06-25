@@ -4,11 +4,12 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-family: sans-serif;
 }
 
 #calculator {
   width: 100%;
-  height: 94%;
+  height: 93%;
 }
 
 .dcg-text-value {
@@ -20,9 +21,17 @@ html, body {
     border-bottom: .7vh solid #000;
 }
 
+#inputs label {
+    width: 4%;
+    padding: 2vh 0 2vh 2%;
+    margin: 0;
+    font-size: 2vh;
+    border: none;
+}
+
 #equation {
-    width: 76%;
-    padding: 2vh 2%;
+    width: 72%;
+    padding: 2vh 2% 2vh 0;
     margin: 0;
     font-size: 2vh;
     border: none;

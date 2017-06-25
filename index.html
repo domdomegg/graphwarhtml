@@ -9,10 +9,11 @@
     </head>
 
     <body>
-        <div id="inputs">
-            <input id="equation" type="text" placeholder="Enter equation here" />
-            <button type="button" name="button" onsubmit="launchEquation()">Fire</button>
-        </div>
+        <form id="inputs" onsubmit="launchEquation();return false">
+            <label>y = </label>
+            <input id="equation" type="text" placeholder="equation in terms of x" value="sin(3x)" />
+            <button type="button" name="button" onclick="launchEquation()">Fire</button>
+        </form>
         <div id="calculator"></div>
         <script src="script.js"></script>
     </body>
